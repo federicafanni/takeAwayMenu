@@ -1,0 +1,113 @@
+body {
+    background-image: url(backgroundImage.jpg); /*Image by <a href="https://www.freepik.com/free-vector/restaurant-mural-wallpaper-with-pizza_10290897.htm#page=3&query=website%20background%20pizza&position=0&from_view=search&track=ais&uuid=d9053058-5808-4a10-a7b7-fd2ca7059396">Freepik</a>*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: "Arial Black", sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s ease;
+    /* To ensure a smooth transition for the transform effect */
+}
+
+img:hover {
+    transform: scale(1.2) rotate(180deg);
+    /* To zoom and rotate the pizza on hover*/
+    cursor: pointer;
+    /* To change the cursor to a hand when hovering over the pizza*/
+}
+
+hr {
+    height: 2px;
+    background-color: #9A2418; /*Using the same colour of the tomatoes*/
+    border-color: #9A2418;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Arial Black", sans-serif;
+}
+
+h1,
+h2,
+p{
+    text-align: center;
+}
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+.menu {
+    width: 80%;
+    background-color:#F1C058;/*Using the same colour of the pizza for consistency*/
+    opacity: 0.92;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 1%;
+    border-color: #5D8529; /*Using the same colour of the basil*/
+    border-style: solid;
+    border-width: 3px;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizzas,
+.sides,
+.drinks{
+    font-family: "Arial Black", sans-serif;
+    flex: 1;
+    text-align: left; 
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    flex: 0 0 auto;
+}
+.bottomHr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #9A2418;
+}
+
+a:active {
+    color: #9A2418;
+}
